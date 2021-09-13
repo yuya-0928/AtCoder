@@ -1,9 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+ 
 int main(){
-    float A, B;
-    cin >> A >> B;
-    float a = (A-B)/3;
-    cout << a + B << endl;
+    int N;
+    string S;
+    cin >> N >> S;
+ 
+    if(S[N-1] == 'o'){
+      cout << "Yes" << endl;
+    }else{
+      cout << "No" << endl;
+    }
 }
